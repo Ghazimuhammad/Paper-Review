@@ -53,15 +53,14 @@ The proposes strategy aims to manage energy savings in base stations (BS) withou
 |Total Pages|6|
 |Keywords|multiple base stations, Advanced Sleep Modes, Multi-Agent Reinforcement Learning, energy saving versus delay performance trade-off|
 
+### 2.1 Summary
 This paper aims to to explore the implementation of advanced sleep modes (ASM) in 5G base stations to improve energy efficiency without significantly impacting service delay. The study specifically investigates the trade-off between energy savings and service delay by considering the effects of inter-cell interference on decision-making processes related to waking up the base stations upon traffic arrival or continuing to stay in sleep mode.
 
 
 The conclusion of the paper highlights that advanced sleep modes (ASM) in 5G base stations can significantly save energy while managing delays in service. Using a special learning method, each base station independently adjusts when to wake up or stay asleep based on traffic and interference, balancing energy savings with service quality. The research shows that these strategies can be adapted based on how busy the network is and the importance of saving power versus reducing delays. Future studies will look into how base stations can work together to optimize both energy efficiency and service delays across the network.
 
-### Pros and Cons
+### 2.2 Pros and Cons
 <div style="background-color: #ADD8E6; padding: 10px;">
-
-## 2.2 Pros and Cons
 
 **PROS**
 * Flexibility in Service Quality Management: The system can balance energy savings with acceptable levels of service delay, providing flexibility in how performance trade-offs are managed depending on current network demands.
@@ -73,4 +72,48 @@ The conclusion of the paper highlights that advanced sleep modes (ASM) in 5G bas
 * Potential for Suboptimal Performance: Since each base station makes decisions independently without cooperation, there is a risk of suboptimal performance due to a lack of coordination, potentially leading to increased interference or delays under certain conditions.
 
 </div>
+
+## 3. Trading Off Delay and Energy Saving Through Advanced Sleep Modes in 5G RANs
+
+
+| Item | Information | 
+| -------- | -------- | 
+|Paper Link|https://ieeexplore.ieee.org/document/10057205|
+|Authors|Daniela Renga, Zunera Umar
+|Date of Publication|11 November 2023|
+|Total Pages|13|
+|Keywords|Sleep modes, 5G networks, energy efficiency
+
+### 3.1 Summary
+The paper discusses an approach for optimizing the balance between delay and energy savings in 5G radio access networks (RANs) by employing Advanced Sleep Modes (ASMs). The primary goal of ASMs is to reduce energy consumption by putting base stations (BSs) into sleep modes during periods of low traffic, thus managing power use more effectively. However, this approach can extend the time it takes for a base station to reactivate, which might impact the quality of service by increasing delays.
+
+The research introduces a framework that dynamically adjusts ASM settings based on the real-time traffic load to maintain an acceptable balance between energy efficiency and reactivation delay. By predicting traffic, the system can adaptively modify the base station's operations to maximize energy savings while ensuring delay constraints are met, which is crucial for delay-sensitive applications in 5G networks.
+
+### 3.2 Pros and Cons
+<div style="background-color: #ADD8E6; padding: 10px;">
+
+**Pros**
+* Adaptive System: The proposed method dynamically adapts to the actual traffic conditions, allowing for real-time optimization of base station performance based on current demand.
+* Quality of Service: The system is designed to meet specified delay constraints, ensuring that the quality of service remains high even as energy savings are maximized.
+
+**Cons**
+* Dependency on Traffic Prediction: The effectiveness of the system heavily relies on accurate traffic predictions. Errors in prediction can lead to either excessive delays or insufficient energy savings.
+* Initial Implementation Costs: Setting up such a system may involve significant initial costs and resources, including the need for advanced predictive analytics capabilities and training for personnel.
+</div>
+
+
+## 4. DRL-Based Energy-Efficient Baseband Function Deployments for Service-Oriented Open RAN
+
+
+| Item | Information | 
+| -------- | -------- | 
+|Paper Link|https://ieeexplore.ieee.org/document/10268589|
+|Authors|Haiyuan Li, Amin Emami
+|Date of Publication|02 October 2023|
+|Total Pages|14|
+|Keywords|Open RAN, resource optimization, baseband function deployment, energy-efficient, MADDPG
+
+
+
+
 
